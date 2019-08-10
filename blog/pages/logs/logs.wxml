@@ -1,0 +1,14 @@
+
+<view class='view'>
+<image class='img' src='{{blog.cover}}' mode='aspectFill'></image>
+</view>
+
+<view class='wx'>
+<view class='text'><text>{{blog.title}} </text></view>
+<wxparser rich-text="{{blog.content}}" />
+</view>
+<view class='footer'>
+<text >一到底了一</text> 
+</view>
+
+

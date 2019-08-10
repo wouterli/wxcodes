@@ -1,0 +1,22 @@
+<!--顶部图片及名称介绍-->
+
+<image class="topimg" src="../../pages/images/top.jpg"mode='widthFix'></image>
+<view class="text_1">二刺猿</view>
+<view class="text_2">专业二次元博客</view>
+<!--内容-->
+<navigator class="other_card"hover-class='hover-class' wx:for="{{blog}}" wx:key="id" url="/pages/logs/logs?id={{item.id}}">
+<view>
+<image class="box_img" src='{{item.cover}}'mode='aspectFill'></image>
+ <view class="child">
+<text>{{item.title}}</text>
+ </view>
+ <view class="description">
+<text>{{item.description}}</text> 
+ </view>
+</view>
+</navigator>
+<view class='footer'>
+<text >一没有了哦一</text> 
+</view>
+
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wxparser": "plugin://wxparserPlugin/wxparser"
+  },
+  "backgroundColor": "#fff"
+}
